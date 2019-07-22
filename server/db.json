@@ -1,0 +1,7 @@
+{
+    "articles":[
+        {"title": "hello world", "content": "Lorem ipsum dolor sit amet.", "createdAt": "2019-07-16T06:43:01.519Z"},
+        {"title": "hello new world", "content": "Lorem ipsum dolor sit amet.", "createdAt": "2019-07-16T06:43:01.519Z"},
+        {"title": "hello darkness my old friend", "content": "Lorem ipsum dolor sit amet.", "createdAt": "2019-07-16T06:43:01.519Z"}
+    ]
+}

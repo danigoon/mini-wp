@@ -1,5 +1,4 @@
 # mini-wp
-# mini-wp
 ## Introduction
 Base url is **http://localhost:3000**
 

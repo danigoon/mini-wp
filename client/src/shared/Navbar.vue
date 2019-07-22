@@ -18,11 +18,11 @@
                 </div>
                 <div class="d-flex flex-row align-items-center p-2">
                     <div class="dropdown" v-if="loginStatus">
-                        <a href="#" class="dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" @click.prevent="signOut">
+                        <a href="#" class="dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <img class="rounded-circle" src="https://static.vecteezy.com/system/resources/previews/000/149/808/non_2x/portrait-of-a-beautiful-asian-woman-vector.jpg" width="28" height="28"  alt="">
                         </a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="#">Log Out</a>
+                            <a class="dropdown-item" href="#" @click.prevent="signOut">Log Out</a>
                         </div>
                     </div>
                 </div>

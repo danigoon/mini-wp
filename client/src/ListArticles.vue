@@ -1,6 +1,6 @@
 <template>
     <div id="card-list-articles" v-if="dispArticleStatus && loginStatus">
-        <div class="card border-dark mt-3 d-flex flex-row" v-for="article in listArticles" :key="article.id">
+        <div class="card bg-light border-primary mt-3 d-flex flex-row" v-for="article in listArticles" :key="article.id">
             <div class="col-lg card-body text-dark">
                 <h5 class="card-title">{{article.title}}</h5>
                 <p class="card-text">{{article.content}}</p>

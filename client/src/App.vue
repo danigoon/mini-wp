@@ -18,7 +18,7 @@
       <div class="row">
         <landing-page :loginStatus="isLogin" @register="register" @login="login"></landing-page>
         <sidebar :loginStatus="isLogin" @search="query = $event"></sidebar>
-        <div class="col-lg-9 border content" v-if="isLogin">
+        <div class="col-lg-9 content" v-if="isLogin">
           <form-article
             :dispFormStatus="dispForm"
             :dispArticleStatus="dispListArticles"

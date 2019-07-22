@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+div.title {
+    font-family: 'EB Garamond', serif;
+    font-size: 14px;
+}
+
+.container-fluid {
+    margin-top: 64px;
+}
+
+div.p-2 a {
+    text-decoration: none;
+    color: #1B2224;
+}
+
+div.title h4 {
+    color: seashell;
+}
+
+div#btn-show-articles {
+    font-family: 'EB Garamond', serif;
+}
+
+input[type="text"]#search-bar {
+    padding-right: 24px;
+}
+
+i#search-icon {
+    margin-left: -24px;
+}
+
+div.sidebar {
+    margin-top: 64px;
+    height: 100%;
+}
+
+div.content {
+    margin-left: auto;
+}
